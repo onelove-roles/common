@@ -1,0 +1,4 @@
+---
+- name: dummy task
+  become: yes
+  shell: touch ansible
