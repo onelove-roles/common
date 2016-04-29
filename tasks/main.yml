@@ -6,3 +6,7 @@
 - name: dumb task
   become: yes
   shell: touch dumb
+  
+- name: date
+  become: yes
+  shell: date
