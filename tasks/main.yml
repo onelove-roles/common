@@ -2,3 +2,7 @@
 - name: dummy task
   become: yes
   shell: touch ansible
+
+- name: dumb task
+  become: yes
+  shell: touch dumb
