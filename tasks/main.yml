@@ -2,11 +2,17 @@
 - name: dummy task
   become: yes
   shell: touch ansible
+  pause:
+    seconds: 1
 
 - name: dumb task
   become: yes
   shell: touch dumb
-  
+  pause:
+    seconds: 1
+
 - name: date
   become: yes
   shell: date
+  pause:
+    seconds: 1
