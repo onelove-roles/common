@@ -3,10 +3,22 @@
   become: yes
   shell: touch ansible
 
+- name: pause
+  pause:
+    seconds: 1
+
 - name: dumb task
   become: yes
   shell: touch dumb
-  
+
+- name: pause
+  pause:
+    seconds: 1
+
 - name: date
   become: yes
   shell: date
+
+- name: pause
+  pause:
+    seconds: 1
